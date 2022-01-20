@@ -2,8 +2,8 @@
 # TODO: Nosaukums
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/JenertsA/open-closed-loop/issues:)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/JenertsA/open-closed-loop/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/JenertsA/open-closed-loop.svg)](https://github.com/JenertsA/open-closed-loop/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/JenertsA/open-closed-loop.svg)](https://github.com/JenertsA/open-closed-loop/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 ---
