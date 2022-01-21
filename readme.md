@@ -55,15 +55,15 @@ Lai lietotu iekārtu, nepieciešams pievienot strāvas avotu tam paredzētajām 
 
 > ⚠️ Iekārtai paredzēts **12V** strāvas avots, tā **nav aprīkota** ar pārsprieguma un pretēja sprieguma aizsardzību
 
-Pievienojot strāvas avotu un ieslēdzot galveno slēdzi, POWER sadaļā jāiedegas gaismas diodei, kas norāda, ka iekārta saņem strāvu. Tā pat iekārtas skārienjūtīgajam ekrānam būtu jāieslēdzas un jāparāda iepriekš aprakstītajam ekrānam.
+Pievienojot strāvas avotu un ieslēdzot galveno slēdzi, POWER sadaļā jāiedegas gaismas diodei, kas norāda, ka iekārta saņem strāvu. Tāpat iekārtas skārienjūtīgajam ekrānam būtu jāieslēdzas un jāparāda iespriekš aprakstītajam lietotāja saskarnes ekrānam.
 
 Uzsākot darbu ar iekāru nepieciešams izmantot HOME funkciju, lai iekārta zinātu indikatoru atrašanās vietu.
 
-Izmantojot ➕ un ➖ pogas uz displeja nepieciešamas iestatīt pozīciju uz kuru doties indikatoram. Pirmajam eksperimentam iesakām izmantot vienu un to pašu pozīciju gan atvērtā, gan noslēgtā cikla vadības indikatoram, piemēram 50 mm.
+Izmantojot ➕ un ➖ pogas uz displeja nepieciešamas iestatīt pozīciju uz kuru doties indikatoram. Pirmajam eksperimentam iesakām izmantot vienu un to pašu pozīciju gan atvērtā, gan noslēgtā cikla vadības indikatoram, piemēram, 50 mm.
 
 ![TODO:bilde](bilde)
 
-Izmantojot HOME pogu iespējams atkārtoti iestatīt iekārtu sākuma pozīcijā. Tā pat kā iepriekš iestata izvēlētu pozīciju un ar pogu GO uzsāk kustību. Ar roku pieturot indikatorus neļauj tiem izkustēties, atvērtā tipa vadības indikators pēc atlaišanas paliek nekustīgs, bet slēgtā cikla vadības indikators nostājas iestatītajā vietā pēc tā atlaišanas.
+Izmantojot HOME pogu iespējams atkārtoti iestatīt iekārtu sākuma pozīcijā. Tāpat kā iepriekš iestata izvēlētu pozīciju un ar pogu GO uzsāk kustību. Ar roku pieturot indikatorus neļauj tiem izkustēties, atvērtā tipa vadības indikators pēc atlaišanas paliek nekustīgs, bet slēgtā cikla vadības indikators nostājas iestatītajā vietā pēc tā atlaišanas.
 
 ![TODO:bilde](bilde)
 
@@ -74,23 +74,23 @@ Ja pēc šī eksperimenta veikšanas netiks izmantota HOME funkcija, atvērtās 
 ---
 ![](./images/measurement_panel.png)
 
-Izmantojot iekārtas panelī pieejamās pieslēgvietas, iespējams veikt mērījumus no novērojumus. 
+Izmantojot iekārtas panelī pieejamās pieslēgvietas, iespējams veikt mērījumus un novērojumus.
 
 POWER sadaļā, kā jau iepriekš aprakstīts, pieslēdzams strāvas avots.
 
-OPEN LOOP CONTROLLER un CLOSED LOOP CONTROLLER sadaļās atrodams pēc funkcijas vienādas pieslēgvietas. Katrā no sadaļām atrodamās pieslēgvietas atbilst attiecīgajam dzinējam.
+OPEN LOOP CONTROLLER un CLOSED LOOP CONTROLLER sadaļās atrodamas pēc funkcijas vienādas pieslēgvietas. Katrā no sadaļām atrodamās pieslēgvietas atbilst attiecīgajam dzinējam.
 
 |Apzīmējums | Nosaukums | Apraksts|
 |------|-----|-----|
-|A +|Dzinēja A spoles I izvads| Iespējams veikt novērojumus sprigumam uz dzinēja A spoles|
-|A -|Dzinēja A spoles II izvads| Iespējams veikt novērojumus sprigumam uz dzinēja A spoles|
-|B +|Dzinēja B spoles I izvads| Iespējams veikt novērojumus sprigumam uz dzinēja B spoles|
-|B -|Dzinēja B spoles II izvads| Iespējams veikt novērojumus sprigumam uz dzinēja B spoles|
-|GND||Savientos ar strāvas avota negatīvo spraudni, izmantojams kā atskaites punkts |
+|A +|Dzinēja A spoles I izvads| Iespējams veikt novērojumus spriegumam uz dzinēja A spoles|
+|A -|Dzinēja A spoles II izvads| Iespējams veikt novērojumus spriegumam uz dzinēja A spoles|
+|B +|Dzinēja B spoles I izvads| Iespējams veikt novērojumus spriegumam uz dzinēja B spoles|
+|B -|Dzinēja B spoles II izvads| Iespējams veikt novērojumus spriegumam uz dzinēja B spoles|
+|GND||Savienots ar strāvas avota negatīvo spraudni, izmantojams kā atskaites punkts |
 |STEP||Motoru vadības draivera kontroles signāls. Pulsveida signāls, kura katrs pulss nosaka viena soļa (vai mikrosoļa) veikšanu dzinējam|
 |DIR||Motoru vadības draivera kontroles signāls, kas nosaka motora griešanās virzienu
 
-TODO: add typical STEP DIR patter.
+TODO: add typical STEP DIR pattern.
 
 CLOSED LOOP CONTROLLER sadaļā pieejamas papildus divas pieslēgvietas
 |Apzīmējums | Nosaukums | Apraksts|
