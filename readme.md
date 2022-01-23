@@ -59,13 +59,14 @@ Pievienojot strāvas avotu un ieslēdzot galveno slēdzi, POWER sadaļā jāiede
 
 Uzsākot darbu ar iekāru nepieciešams izmantot HOME funkciju, lai iekārta zinātu indikatoru atrašanās vietu.
 
-Izmantojot ➕ un ➖ pogas uz displeja nepieciešamas iestatīt pozīciju uz kuru doties indikatoram. Pirmajam eksperimentam iesakām izmantot vienu un to pašu pozīciju gan atvērtā, gan noslēgtā cikla vadības indikatoram, piemēram, 50 mm.
+Izmantojot ➕ un ➖ pogas uz displeja nepieciešamas iestatīt pozīciju uz kuru doties indikatoram. Pirmajam eksperimentam iesakām izmantot vienu un to pašu pozīciju gan atvērtā, gan noslēgtā cikla vadības indikatoram, piemēram, 98 mm.
 
-![TODO:bilde](bilde)
+![](./images/not_loaded.jpg)
 
 Izmantojot HOME pogu iespējams atkārtoti iestatīt iekārtu sākuma pozīcijā. Tāpat kā iepriekš iestata izvēlētu pozīciju un ar pogu GO uzsāk kustību. Ar roku pieturot indikatorus neļauj tiem izkustēties, atvērtā tipa vadības indikators pēc atlaišanas paliek nekustīgs, bet slēgtā cikla vadības indikators nostājas iestatītajā vietā pēc tā atlaišanas.
+Attēlā redzams kā slogotais (atvērtās vadības) indikators apstājies pozīcijā, kas atšķiras no iestatītas. 
 
-![TODO:bilde](bilde)
+![](./images/loaded.jpg)
 
 Ja pēc šī eksperimenta veikšanas netiks izmantota HOME funkcija, atvērtās vadības indikatoram nav iespējams zināt reālo pozīciju.
 
