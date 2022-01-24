@@ -147,19 +147,19 @@ void setup()
   /**
    * motors are mounted in mirror 
    * that is why
-   * 1st motors DIR is LOW
-   * 2nd motors DIR is HIGH
+   * 1st motors DIR is HIGH
+   * 2nd motors DIR is LOW
    * indicator on both axes moves in the same direction. 
    */
-  digitalWrite(DIR_1, LOW);
-  digitalWrite(DIR_2, HIGH);
+  digitalWrite(DIR_1, HIGH);
+  digitalWrite(DIR_2, LOW);
 
   // home all axis on power on
   homeAll();
 
   // just to be safe
-  digitalWrite(DIR_1, LOW);
-  digitalWrite(DIR_2, HIGH);
+  digitalWrite(DIR_1, HIGH);
+  digitalWrite(DIR_2, LOW);
 }
 
 /**
@@ -271,7 +271,7 @@ void moveMotors()
     //we need to move forward
     if (encoderPos < (moveToTicks - 10))
     {
-      digitalWrite(DIR_1, LOW);
+      digitalWrite(DIR_1, HIGH);
       digitalWrite(STEP_1, HIGH);
       digitalWrite(STEP_1, LOW);
     }
@@ -279,7 +279,7 @@ void moveMotors()
     //we need to move backward
     else if (encoderPos > (moveToTicks + 10))
     {
-      digitalWrite(DIR_1, HIGH);
+      digitalWrite(DIR_1, LOW);
       digitalWrite(STEP_1, HIGH);
       digitalWrite(STEP_1, LOW);
     }
@@ -292,7 +292,7 @@ void moveMotors()
     //we need to move forward
     if (stepsToMove > 0)
     {
-      digitalWrite(DIR_2, HIGH);
+      digitalWrite(DIR_2, LOW);
 
       //we are not at the destination
       if (stepsMoved < stepsToMove)
@@ -308,7 +308,7 @@ void moveMotors()
     //we need to move backward
     if (stepsToMove < 0)
     {
-      digitalWrite(DIR_2, LOW);
+      digitalWrite(DIR_2, HIGH);
       //we are not at the destination
       if (stepsMoved < (stepsToMove * (-1)))
       {
@@ -380,7 +380,7 @@ void read_encoder_ISR()
 void homeAll()
 {
   //HOMING SERVO
-  digitalWrite(DIR_1, HIGH);
+  digitalWrite(DIR_1, LOW);
   while (true)
   {
     digitalWrite(STEP_1, HIGH);
@@ -390,7 +390,7 @@ void homeAll()
     if (!digitalRead(ENDSW_1))
     {
       //go back 5mm
-      digitalWrite(DIR_1, LOW);
+      digitalWrite(DIR_1, HIGH);
       for (int i = 0; i < 400; i++)
       {
         digitalWrite(STEP_1, HIGH);
@@ -398,14 +398,14 @@ void homeAll()
         delayMicroseconds(500);
       }
       //to end switch slower
-      digitalWrite(DIR_1, HIGH);
+      digitalWrite(DIR_1, LOW);
       while (digitalRead(ENDSW_1))
       {
         digitalWrite(STEP_1, HIGH);
         digitalWrite(STEP_1, LOW);
         delayMicroseconds(1000);
       }
-      digitalWrite(DIR_1, LOW);
+      digitalWrite(DIR_1, HIGH);
       while (!digitalRead(ENDSW_1))
       {
         digitalWrite(STEP_1, HIGH);
@@ -420,7 +420,7 @@ void homeAll()
   }
 
   //HOMING STEPPER
-  digitalWrite(DIR_2, LOW);
+  digitalWrite(DIR_2, HIGH);
   while (true)
   {
     digitalWrite(STEP_2, HIGH);
@@ -430,7 +430,7 @@ void homeAll()
     if (!digitalRead(ENDSW_2))
     {
       //go back 5mm
-      digitalWrite(DIR_2, HIGH);
+      digitalWrite(DIR_2, LOW);
       for (int i = 0; i < 400; i++)
       {
         digitalWrite(STEP_2, HIGH);
@@ -438,14 +438,14 @@ void homeAll()
         delayMicroseconds(500);
       }
       //to end switch slower
-      digitalWrite(DIR_2, LOW);
+      digitalWrite(DIR_2, HIGH);
       while (digitalRead(ENDSW_2))
       {
         digitalWrite(STEP_2, HIGH);
         digitalWrite(STEP_2, LOW);
         delayMicroseconds(1000);
       }
-      digitalWrite(DIR_2, HIGH);
+      digitalWrite(DIR_2, LOW);
       while (!digitalRead(ENDSW_2))
       {
         digitalWrite(STEP_2, HIGH);
