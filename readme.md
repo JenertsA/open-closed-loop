@@ -1,5 +1,5 @@
 
-# TODO: Nosaukums
+# Soļdzinēja un Servo demonstrācijas stends
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/JenertsA/open-closed-loop.svg)](https://github.com/JenertsA/open-closed-loop/issues)
@@ -21,17 +21,17 @@ Atvērtā un slēgta cikla vadības risinājuma demonstrēšanas iekārta radīt
 
 Iekārta un tās dokumentācija veidota tā, lai ne tikai vizuāli un vienkāršoti demonstrētu gan atvērtu, gan slēgta cikla vadību, bet arī sniegtu iespēju veikt praktiskus eksperimentus.
 
- ![TODO:bilde](bilde)
+ ![](./images/device.jpg)
 
 ## Darbības principi <a name = "working"></a>
 
 ---
 
-Iekārtas mehānisma galvenā funkcija ir pārvietot indikatoru uz noteiktu pozīciju, ko ievada lietotājs.  Uz iekārtas atrodas divi indikatori, viens tiek vadīts ar atvērta tipa vadību, bet otrs ar slēgta cikla vadību. Abu indikatoru kustību nodrošina identiski soļudzinēji, viens no šiem soļudzinējiem aprīkots ar optisku enkoderi, kas tiek pielietots vadības cikla noslēgšanai jeb dzinēja rotācijas kustības reģistrēšanai.
+Iekārtas mehānisma galvenā funkcija ir pārvietot indikatoru uz noteiktu pozīciju, ko ievada lietotājs.  Uz iekārtas atrodas divi indikatori, viens tiek vadīts ar atvērta tipa vadību, bet otrs ar slēgta cikla vadību. Abu indikatoru kustību nodrošina identiski soļdzinēji, viens no šiem soļdzinējiem aprīkots ar optisku enkoderi, kas tiek pielietots vadības cikla noslēgšanai jeb dzinēja rotācijas kustības reģistrēšanai.
 
 ### Mehāniskā uzbūve
 
-Iekārtas korpuss veidots no ekstrudētiem alumīnija profiliem, kas savstarpēji savienoti gan ar industriāli lietotiem savienojumiem, gan 3D drukātām detaļām. Ar 3D drukas tehnoloģijas palīdzību izgatavotas detaļas soļudzinēju stiprināšanai un piedziņas siksnu spriegošanai. Arī Indikatori izgatavoti ar 3D drukas tehnoloģiju, tajos nostiprināti lineārie gultņi, kas atvieglo kustību, kas notiek pa kalibrēta izmēra vadīklām.
+Iekārtas korpuss veidots no ekstrudētiem alumīnija profiliem, kas savstarpēji savienoti gan ar industriāli lietotiem savienojumiem, gan 3D drukātām detaļām. Ar 3D drukas tehnoloģijas palīdzību izgatavotas detaļas soļdzinēju stiprināšanai un piedziņas siksnu spriegošanai. Arī Indikatori izgatavoti ar 3D drukas tehnoloģiju, tajos nostiprināti lineārie gultņi, kas atvieglo kustību, kas notiek pa kalibrēta izmēra vadīklām.
 
 ### Lietotāja saskarne
 
@@ -91,7 +91,6 @@ OPEN LOOP CONTROLLER un CLOSED LOOP CONTROLLER sadaļās atrodamas pēc funkcija
 |STEP||Motoru vadības draivera kontroles signāls. Pulsveida signāls, kura katrs pulss nosaka viena soļa (vai mikrosoļa) veikšanu dzinējam|
 |DIR||Motoru vadības draivera kontroles signāls, kas nosaka motora griešanās virzienu
 
-TODO: add typical STEP DIR pattern.
 
 CLOSED LOOP CONTROLLER sadaļā pieejamas papildus divas pieslēgvietas
 |Apzīmējums | Nosaukums | Apraksts|
@@ -99,7 +98,6 @@ CLOSED LOOP CONTROLLER sadaļā pieejamas papildus divas pieslēgvietas
 |A|Optiskā enkodera A fāze| Viens no enkodera signāliem ar kura palīdzību var sekot līdzi dzinēja vārpstas rotācijai|
 |B|Optiskā enkodera B fāze| Viens no enkodera signāliem ar kura palīdzību var sekot līdzi dzinēja vārpstas rotācijai|
 
-TODO: add typical encoder signal diagram.
 
 ## ✍️ Autori <a name = "authors"></a>
 
